@@ -30,6 +30,7 @@
 // val4.addres = "Hiroshima";
 // console.log(val4);
 
-const val5 = {'dog','cat'};
+const val5 = ["dog", "cat"];
+val5[0] = "bird";
+val5.push("monkey");
 console.log(val5);
-
